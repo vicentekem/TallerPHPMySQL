@@ -1,0 +1,90 @@
+body,h1,form,p
+{
+	margin: 0px;
+}
+h1
+{
+	text-align: center;
+	color: rgb(30,150,230);
+	font-family: gisha;
+	letter-spacing: -1.5px;
+	word-spacing: 3px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.table
+{
+	width: 100%;
+	margin-top: 10px;
+	max-width: 1000px;
+	margin: auto;
+}
+tr td:nth-child(1),.resultados td
+{
+	box-sizing: border-box;
+	width: 33.3%;
+	padding-left: 10px;
+	color: rgb(50,50,50);
+	font-family: georgia;
+	font-size: 20px;
+}
+.campo
+{
+	font-size: 16px;
+	outline: none;
+	background: white;
+}
+.campo:focus
+{
+	background: rgb(50,250,100);	
+}
+.btn
+{
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	color: white;
+	width: 100px;
+	height: 30px;
+	background-color: rgb(20,150,220);
+}
+.btn:active
+{
+	
+	background-color: rgb(30,140,210);
+	font-size: 18px;
+	outline: none;
+}
+.resultados
+{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	margin-top: 10px;
+	
+}
+th
+{
+	font-size: 18px;
+	width: 33.3%;
+	color: white;
+	background-color: rgb(100,100,100);
+	box-sizing: border-box;
+	padding: 4px;
+	
+}
+.resultados td{
+	border: 1px solid rgb(200,200,200);
+}
+
+
+
+
+
+
+
+
+
+
+
