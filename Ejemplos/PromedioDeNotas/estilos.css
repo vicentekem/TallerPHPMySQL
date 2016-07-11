@@ -1,0 +1,68 @@
+body
+{
+	margin: 0px;
+	min-height: 100vh;
+	background: -webkit-radial-gradient(center,skyblue 30%,rgb(50,110,180));
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.main
+{
+	width: 100%;
+	max-width: 650px;
+	background-color: white;
+	box-shadow: 0px 0px 50px grey;
+	
+}
+.cabecera
+{
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(237, 183, 23);
+	margin: auto;
+}
+.cabecera h1
+{
+	color: white;
+}
+.cabecera,section
+{
+	padding: 10px;
+}
+legend
+{
+	font-size: 20px;
+	color: rgb(100,100,100);
+}
+.btn
+{
+	width: 100px;
+	height: 35px;
+	font-size: 15px;
+	background: rgb(230,170,50);
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+.btn:active
+{
+	background: rgb(230,150,20);
+}
+.btn:focus
+{
+	outline: none;
+}
+
+
+
+
+
+
+
+
+
+

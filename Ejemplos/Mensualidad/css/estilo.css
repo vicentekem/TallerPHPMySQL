@@ -1,0 +1,140 @@
+body
+{
+	/*background: rgb(120,200,255);*/
+	background: url('../imagenes/img.jpg');
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 100vh;
+	background-size: 100% 100%;
+}
+.banner
+{
+	width: 100%;
+	max-width: 1000px;
+	max-height: 300px;
+	margin: auto;
+	display: block;
+	margin-top: 0px;
+	border-radius: 10px 10px 0px 0px;
+}
+header
+{
+	max-width: 1000px;
+	margin: 0px auto;	
+	border-radius: 10px 10px 0px 0px;	
+	background-image: url(../imagenes/img3.jpg);
+	background-size: 100% 100%;
+}
+
+section{
+	background: white;
+}
+section
+{
+	max-width: 1000px;
+	width: 100%;
+	margin: 0px auto;
+	border-radius: 0px 0px 10px 10px;
+	
+}
+section h1
+{
+	text-align: center;
+	font-size: 36px;
+	width: 100%;
+	display: inline-block;
+	color: rgb(20,80,180);
+	font-family: arial;
+	text-shadow: 1px 1px,2px 2px;
+}
+table
+{
+	width: 100%;
+	
+}
+form
+{
+	padding: 10px;
+}
+td:nth-child(2)
+{
+	width: 50%;
+}
+td:nth-child(1),td:nth-child(3)
+{
+	width: 25%;
+	
+}
+#nombre
+{
+	width: 90%
+		
+}
+#promedio
+{
+	width: 50px;
+}
+td:nth-child(1)
+{
+	font-weight: bolder;
+}
+label,td:nth-child(1),td:nth-child(3)
+{
+	font-size: 18px;
+	font-family: arial;
+	color:rgb(30,30,30);
+}
+select
+{
+	font-size: 15px;
+}
+input[type='submit']
+{
+	margin: auto;
+	display: block;
+	height: 35px;
+	width: 100px;
+	font-size: 16px;
+	border: none;
+	box-shadow: 
+					1px 1px rgb(0,50,170),
+					2px 2px rgb(0,50,170),
+					3px 3px rgb(0,50,170),
+					4px 4px rgb(0,50,170),
+					5px 5px rgb(0,50,170);
+	position: relative;
+	font-weight: bold;
+	cursor: pointer;
+	background: rgb(20,80,180);
+	color: white;
+}
+input[type='submit']:active
+{
+	top: 3px;
+	left: 3px;
+	box-shadow: 1px 1px rgb(0,50,170),2px 2px rgb(0,50,170),3px 3px rgb(0,50,170);
+	outline: none;
+	border: none;
+}
+input[type='submit']:focus
+{
+	outline: none;
+}
+h1
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+tr:nth-child(1),tr:nth-child(2),tr:nth-child(3)
+{
+	height:45px;
+	
+}
+
+
+
+
+
+
